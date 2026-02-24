@@ -5,11 +5,16 @@
 # for i in range(5):
 #     display_pi()
 
-import time
+# import time
+#
+# def current_time():
+#     time_now = time.strftime("%H:%M:%S")
+#     print(time_now)
+#
+# for i in range(5):
+#     current_time()
 
-def current_time():
-    time_now = time.strftime("%H:%M:%S")
-    print(time_now)
-
-for i in range(5):
-    current_time()
+# def square_number():
+#     ans = number in ** 2
+#     print(ans)
+#     number = float(input("Enter "))
