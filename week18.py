@@ -4,7 +4,7 @@
 #
 # for i in range(5):
 #     display_pi()
-
+#
 # import time
 #
 # def current_time():
@@ -13,10 +13,10 @@
 #
 # for i in range(5):
 #     current_time()
-
-def square_number(number_in):
-    ans = number_in ** 2
-    print(ans)
-# main body of code
-number = float(input("Please enter number to be squared:"))
-square_number(number)
+#
+# def square_number(number_in):
+#     ans = number_in ** 2
+#     print(ans)
+# # main body of code
+# number = float(input("Please enter number to be squared: "))
+# square_number(number)
