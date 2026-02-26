@@ -51,3 +51,26 @@
 # count_vowels("Python Programming")
 # user_input = input("Enter String: ")
 # count_vowels(user_input)
+
+# def print_employee_status(name_in, status_in):
+#     valid_status = ["FT", "PT", "S"]
+#
+#     if status_in in valid_status:
+#         print(name_in, " has a valid status of: ", )
+
+def compound_interest(principal_amount, interest_rate, years = 1):
+    amount = principal_amount * ((1 +(interest_rate / 100)) ** years)
+    amount = round(amount, 2)
+    print("Amount: ", amount)
+
+compound_interest(principal_amount= 100, interest_rate= 10)
+
+def check_date(day=1, month=1):
+    num_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+    if day > num_days[month -1]:
+        print("Illegal day number of month, only {} days in that month".format(num_days[month-1]))
+    else:
+        print("Legal day value within month range")
+
+check_date(day= 32, month= 3)
+check_date()
