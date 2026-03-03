@@ -52,10 +52,10 @@
 # square_value = square()
 # print("Square: ", square_value)
 
-def min_max(my_list):
-    return max(my_list), min(my_list)
-#ensure you have enough variables specified to catch the returned values
-nums = [10,20,30,40]
-max_num, min_num, = min_max(nums)
-print("The maximum value in the list : ",max_num)
-print("The minimum value in the list : ",min_num)
+# def min_max(my_list):
+#     return max(my_list), min(my_list)
+# #ensure you have enough variables specified to catch the returned values
+# nums = [10,20,30,40]
+# max_num, min_num, = min_max(nums)
+# print("The maximum value in the list : ",max_num)
+# print("The minimum value in the list : ",min_num)
