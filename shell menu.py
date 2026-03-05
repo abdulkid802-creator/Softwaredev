@@ -1,5 +1,5 @@
  # choice = ""
- # while choice != 5:
+ # while choice != "5":
  #     print("---  ---")
  #     print("1. ")
  #     print("2. ")

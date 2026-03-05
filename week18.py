@@ -31,14 +31,14 @@
 # number1 = float(input("Please enter first number:"))
 # number2 = float(input("Please enter second number:"))
 # largest_number(number1, number2)
-
+#
 # def print_values(n1, n2):
 #     nums = []
 #     for i in range(n1, n2 + 1):
 #         nums.append(i ** 2)
 #     print(nums)
 # print_values(1,4)
-
+#
 # def count_vowels(string_in):
 #     vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
 #     count = 0
@@ -51,13 +51,13 @@
 # count_vowels("Python Programming")
 # user_input = input("Enter String: ")
 # count_vowels(user_input)
-
+#
 # def print_employee_status(name_in, status_in):
 #     valid_status = ["FT", "PT", "S"]
 #
 #     if status_in in valid_status:
 #         print(name_in, " has a valid status of: ", )
-
+#
 # def compound_interest(principal_amount, interest_rate, years = 1):
 #     amount = principal_amount * ((1 +(interest_rate / 100)) ** years)
 #     amount = round(amount, 2)
